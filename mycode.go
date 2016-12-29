@@ -13,6 +13,7 @@ import (
 
 func pr(v ...interface{}) {
     //fmt.Printf("%q\n", v...)
+    //fmt.Printf("%+v\n", v...)
     fmt.Printf("%#v\n", v...)
 }
 
